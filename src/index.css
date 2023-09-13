@@ -157,6 +157,9 @@ section{
     width: fit-content !important;
 }
 /* ------------------------------------------------------------------------------------------ */
+.MuiSnackbarContent-message{
+    font-size: 1.5rem;
+}
 
 .contact-parag{
     font-size: 1.8rem;
@@ -169,6 +172,7 @@ section{
 }
 .icon-contact {
     font-size: 2rem;
+    cursor: pointer;
 }
 
 /* ------------------------------------------------------------------------------------------ */

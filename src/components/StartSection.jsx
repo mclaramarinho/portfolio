@@ -4,8 +4,8 @@
         return(
             <section id="start">
                 <div className="lat-icon-bar container ms-4 position-absolute start-0 top-50" style={{width:"fit-content"}}>
-                        <a href="" className="row lat-icon mb-5"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="" className="row lat-icon"><i class="fa-brands fa-github"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/mclaramarinho/" className="row lat-icon mb-5"><i class="fa-brands fa-linkedin"></i></a>
+                        <a target="_blank" href="https://github.com/mclaramarinho" className="row lat-icon"><i class="fa-brands fa-github"></i></a>
                 </div>
                 <div className="sect-cont container">
                     <div className="row" >

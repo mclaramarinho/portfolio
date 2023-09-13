@@ -7,7 +7,7 @@ function Project(props){
                 <div className="row">
                     <div className="col-lg-5 col-xl-4 col-12 ms-auto">
                         <div className="row"></div>
-                        <a href="" className="row proj-img">
+                        <a target="_blank" href={props.liveLink} className="row proj-img">
                             <img src={props.img} alt="" />
                         </a>
                         <div className="row"></div>
@@ -33,9 +33,9 @@ function Project(props){
                     </div>
                     <div className="col-lg-5 col-xl-4 col-12 me-auto">
                         <div className="row"></div>
-                        <div className="row proj-img">
+                        <a target="_blank" href={props.liveLink} className="row proj-img">
                             <img src={props.img} alt="" />
-                        </div>
+                        </a>
                         <div className="row"></div>
                     </div>
                     

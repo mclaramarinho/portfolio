@@ -21,11 +21,11 @@ function ContactSection(){
             <div className="sect-cont container w-50 text-center">
                 
                 <div className="row">
-                    <h1>CONTACT ME</h1>
+                    <h2>CONTACT ME</h2>
                 </div>
 
                 <div className="mt-3 row">
-                    <p className="contact-parag">If you have an offer or want more information. I always answer ASAP!</p>
+                    <p className="contact-parag w-75 m-auto">If you have an offer or want more information. I always answer ASAP!</p>
                 </div>
                     
                 <div className="mt-5 row m-auto text-center email-copy">
@@ -37,8 +37,8 @@ function ContactSection(){
                     </CopyToClipboard>
                 </div>
                 <div className="row w-25 m-auto mt-4">
-                    <div className="col-6"><i class="icon-contact fa-brands fa-linkedin"></i></div>
-                    <div className="col-6"><i class="icon-contact fa-brands fa-github"></i></div>
+                    <a style={{textDecoration:"none", color:"white"}} target="_blank" href="https://www.linkedin.com/in/mclaramarinho/" className="col-6"><i class="icon-contact fa-brands fa-linkedin"></i></a>
+                    <a style={{textDecoration:"none", color:"white"}} target="_blank" href="https://github.com/mclaramarinho" className="col-6"><i class="icon-contact fa-brands fa-github"></i></a>
                 </div>
                 
             </div>

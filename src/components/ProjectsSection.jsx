@@ -17,6 +17,7 @@ return (
                         tipo={item.type.toUpperCase()}
                         descricao={item.description}
                         stack={item.stack.join(" | ").toUpperCase()}
+                        liveLink = {item.live}
                     />
                 )
             })}
