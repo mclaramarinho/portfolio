@@ -8,22 +8,49 @@
     --pink: #FE7BE5;
     --darkPink: #fe7be6ab;
     --green: #01c9b6;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    font-family: 'Roboto';
 }
 /* ------------------------------------------------------------------------------------------ */
 
+
+.bgImg{
+    position: fixed;
+    opacity: 0.03;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
 body{
     background-image: linear-gradient(to bottom, #313866, #353a70, #3a3c7a, #3f3e84, #463f8d, #4e4195, #57439d, #6144a4, #6e47ac, #7b4ab4, #894cbc, #974ec3);
 }
 .fa-circle-chevron-up{
     font-size: 5rem !important;
 }
-
+h1{
+    font-size: 5rem;
+    width: fit-content;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h1,h2,h3{
+    font-weight: 700;
+}
 /* ------------------------------------------------------------------------------------------ */
-
-.navbar{
+.dark-nav{
     background-color: var(--darkPurple) !important;
+}
+.transp-nav{
+    background-color: transparent !important;
+}
+.navbar{
     padding: 3vh 5vh!important;
 }
+
 .navbar-brand{
     font-weight: 900;
     font-size: 2.5rem;
@@ -40,15 +67,28 @@ body{
 .navbar-brand:hover, .nav-link:hover{
     color: var(--pink);
 }
-
+.navbar-toggler-icon, .navbar-toggler-icon:active{
+    color: white;
+    font-size: 2rem;
+}
+.navbar-toggler, .navbar-toggler:hover, .navbar-toggler:active, .navbar-toggler:not([collapsed]){
+    outline: none;
+    border: none !important;
+    box-shadow: none !important;
+    --bs-navbar-toggler-icon-bg: "";
+    padding: 0 !important;
+}
 /* ------------------------------------------------------------------------------------------ */
 
 section{
-    margin: 10vh 0;
     color: white;
     padding: 5vh 0;
 }
-
+@media (max-width:600px) {
+    .sect-cont{
+        width: 80vw !important;
+    }
+}
 /* ------------------------------------------------------------------------------------------ */
 
 .lat-icon{
@@ -60,19 +100,14 @@ section{
 .lat-icon:hover{
     color: var(--green);
 }
-h1{
-    font-size: 5rem !important;
-}
-.intro-parag{
-    font-size: 2.1rem;
-    width: 60%;
-}
+
+
 .op50{
     opacity: 0.5;
 }
 .btn-container{
     width: fit-content;
-    
+
 }
 .btn-start{
     margin-top: 2vh;
@@ -93,5 +128,117 @@ h1{
 }
 .btn-highlight:active{
     background-color: transparent !important;
-    color: white !important; 
+    color: white !important;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.about-skills{
+    width: fit-content !important;
+}
+.about-parag{
+    font-size: 1.6rem;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.proj-tipo, .proj-stack{
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+.proj-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.proj-desc{
+    font-size: 1.5rem;
+}
+.py-5{
+    width: fit-content !important;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+.contact-parag{
+    font-size: 1.8rem;
+}
+.email-copy{
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 1.5rem;
+    --bs-gutter-x: 0 !important;
+}
+.icon-contact {
+    font-size: 2rem;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+footer{
+    color: white;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+@media (min-width: 990px){
+    section{
+        margin: 10vh 0 !important;
+    }
+    .intro-parag{
+        font-size: 2.1rem;
+        width: 60%;
+    }
+}
+@media (max-width: 990px) {
+   
+    .r-nav-link{
+        align-self: flex-end;
+        padding: 0 !important;
+        margin-bottom: 1vh;
+    }
+    .resp-start {
+        text-align: center;
+        margin: 0 auto !important;
+    }
+    .start-col{
+        margin-bottom: 2vh !important;
+    }
+    .resp-about{
+        text-align: justify !important;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .skills-1{
+        margin: 5vh auto!important;
+    }
+    .intro-parag{
+        font-size: 2.1rem;
+        width: 80%;
+    }
+    .resp-center{
+        text-align: center;
+    }
+    .resp-center-1{
+        margin-top: 3vh;
+    }
+    .proj{
+        margin: 0 auto;
+    }
+    .proj-tipo, .proj-desc{
+        margin-top: 1vh;
+    }
+}
+@media (max-width:600px) {
+    .lat-icon-bar{
+        width: fit-content !important;
+        position: static !important;
+        display: flex;
+        margin: 0 auto !important;
+        column-gap: 2vh;
+        >.lat-icon{
+            margin: 0 auto 3vh !important;
+            width: 50% !important;
+            margin-right: 2vh;
+        }
+    }
+    .start-col{
+        margin: 0 auto 2vh !important;
+    }
 }
