@@ -1,13 +1,97 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+    font-size: 64.5%;
+    --mainFont: "Roboto";
+    --secondaryFont: "Oswald";
+    --darkPurple: #313866;
+    --purple: #504099;
+    --pinkPurple: #974EC3;
+    --pink: #FE7BE5;
+    --darkPink: #fe7be6ab;
+    --green: #01c9b6;
+}
+/* ------------------------------------------------------------------------------------------ */
+
+body{
+    background-image: linear-gradient(to bottom, #313866, #353a70, #3a3c7a, #3f3e84, #463f8d, #4e4195, #57439d, #6144a4, #6e47ac, #7b4ab4, #894cbc, #974ec3);
+}
+.fa-circle-chevron-up{
+    font-size: 5rem !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* ------------------------------------------------------------------------------------------ */
+
+.navbar{
+    background-color: var(--darkPurple) !important;
+    padding: 3vh 5vh!important;
+}
+.navbar-brand{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.nav-link{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0 2.5vh !important;
+    align-self: flex-end;
+}
+.navbar-brand, .nav-link, .navbar-brand:active, .nav-link:active {
+    color: white;
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: var(--pink);
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+section{
+    margin: 10vh 0;
+    color: white;
+    padding: 5vh 0;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+.lat-icon{
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+.lat-icon:hover{
+    color: var(--green);
+}
+h1{
+    font-size: 5rem !important;
+}
+.intro-parag{
+    font-size: 2.1rem;
+    width: 60%;
+}
+.op50{
+    opacity: 0.5;
+}
+.btn-container{
+    width: fit-content;
+    
+}
+.btn-start{
+    margin-top: 2vh;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    padding: 1vh 3vh;
+    border-radius: 1vh;
+}
+.btn-highlight{
+    background-color: white;
+    color: var(--darkPurple);
+}
+.btn-highlight:hover{
+    background-color: var(--green);
+    color: white;
+}
+.btn-highlight:active{
+    background-color: transparent !important;
+    color: white !important; 
 }

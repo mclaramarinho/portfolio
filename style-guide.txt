@@ -1,0 +1,13 @@
+TEMPLATE: https://dribbble.com/shots/18436992-Frontend-Portfolio
+
+Color pallete: https://colorhunt.co/palette/313866504099974ec3fe7be5
+
+Font family:
+    OSWALD - https://fonts.google.com/specimen/Oswald?query=oswald [700, 500]
+    ROBOTO - https://fonts.google.com/specimen/Roboto [300, 400, 400 I, 700, 900]
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+
