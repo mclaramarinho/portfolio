@@ -17,7 +17,7 @@ return(
                     </div>
                     <div className="col-xl-4 col-lg-6 col-md-10 col-xs-12 ms-md-5 me-md-auto py-md-5 m-sm-auto">
                         <div className="col-12 about-skills skills-1 resp-start">
-                            <h3 className="col-12 about-skills">MAIN KNOWLEDGE</h3>
+                            <h3 className="col-12 about-skills resp-start">MAIN KNOWLEDGE</h3>
                             <SkillsGrid array={skills} cols={4} />
                         </div>
                         <div className="col-12 mt-5 resp-start" style={{width: "fit-content"}}>

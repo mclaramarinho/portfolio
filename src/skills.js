@@ -1,13 +1,14 @@
 const skills = [
-    {
-        id: 0,
-        skill: "HTML",
-        imgSrc:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
-    },
+    
     {
         id: 1,
         skill: "CSS",
         imgSrc:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    },
+    {
+        id: 0,
+        skill: "HTML",
+        imgSrc:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
     },
     {
         id: 2,
