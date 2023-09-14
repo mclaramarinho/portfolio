@@ -14,7 +14,10 @@ function Navbar(){
                 <a class="nav-link r-nav-link" href="#about">ABOUT ME</a>
                 <a class="nav-link r-nav-link" href="#projects">PROJECTS</a>
                 <a class="nav-link r-nav-link" href="#contact">CONTACT ME</a>
-                <a class="nav-link mt-0 btn btn-start btn-highlight px-3 py-3"><i class="fa-solid fa-download"/> RESUME</a>
+                <a class="nav-link mt-0 btn btn-start btn-highlight px-3 py-3"
+                target="_blank"
+                  href="https://drive.google.com/file/d/1dYVlF9r1HVTlKIzYUl0lRdcAIf19LRs-/view?usp=sharing"
+                ><i class="fa-solid fa-download"/> RESUME</a>
               </div>
             </div>
           </div>
