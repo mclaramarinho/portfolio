@@ -5,8 +5,8 @@ import projects from "../projects";
 function ProjectsSection(){
 return (
     <section id="projects">
-        <div className="sect-cont container">
-        <div className="row text-center"><h2>PROJECTS</h2></div>
+        <div className="sect-cont container sect-proj">
+        <div className="row text-center mb-5"><h2>PROJECTS</h2></div>
             {projects.map((item, index) =>{
                 
                 return(

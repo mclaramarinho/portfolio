@@ -146,12 +146,14 @@ section{
     font-size: 1.2rem;
     opacity: 0.8;
 }
+
 .proj-title{
     font-size: 1.8rem;
     font-weight: 700;
 }
 .proj-desc{
     font-size: 1.5rem;
+    text-align: justify !important;
 }
 .py-5{
     width: fit-content !important;
@@ -188,6 +190,10 @@ footer{
     .intro-parag{
         font-size: 2.1rem;
         width: 60%;
+    }
+    .proj-l{
+        text-align: right !important;
+        justify-content: end !important;
     }
 }
 @media (max-width: 990px) {
@@ -227,6 +233,23 @@ footer{
     }
     .proj-tipo, .proj-desc{
         margin-top: 1vh;
+        text-align: left !important;
+        justify-content: flex-start;
+    }
+    
+}
+@media (max-width:768px){
+    .resp-proj{
+        width: 100% !important;
+        margin: auto !important;
+        margin-top: 5vh !important;
+    }
+    .sect-cont{
+        width: 90% !important;
+    }
+    .proj-img{
+        width: 100% !important;
+        margin: 0 auto !important;
     }
 }
 @media (max-width:600px) {

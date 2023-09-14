@@ -1,7 +1,7 @@
 const projects = [
     {
         title:"Matching Game",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lorem a augue pharetra lacinia. Fusce ut ex sit amet nisi sodales laoreet ac eget diam. Cras vestibulum interdum bibendum.",
+        description:"This game was developed during my early stages of front-end developemnt learning. It is responsive, but the main goal was to exercise the logic behind the game, while learning jQuery. Play it on your desktop browser or any other device!",
         imgSrc: "https://user-images.githubusercontent.com/119897667/249859580-3cc2dbde-2759-4ac4-aad6-a4cb6cf925a6.png",
         stack: ["HTML", "CSS", "Bootstrap", "jQuery"],
         type: "Browser Game",
@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title:"Verr Med",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lorem a augue pharetra lacinia. Fusce ut ex sit amet nisi sodales laoreet ac eget diam. Cras vestibulum interdum bibendum.",
+        description:"Verr Med was created as a community outreach project, to help those who struggle with drug allergy. The user can search for a medicine and input their allergies to check if the medicine contains or not those allergens. The app calls an API to search the Anvisa (BR) database and is, currently, an ongoing project.",
         imgSrc: "https://user-images.githubusercontent.com/119897667/267396135-37271ae6-febc-4ef7-bfc2-348900b95dd5.png",
         stack: ["HTML", "CSS", "Bootstrap", "ReactJS"],
         type: "Web App",
@@ -25,7 +25,7 @@ const projects = [
     // }, IMPROVE MOBILE RESPONSIVITY AND DESIGN
     {
         title:"Snake Game",
-        description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lorem a augue pharetra lacinia. Fusce ut ex sit amet nisi sodales laoreet ac eget diam. Cras vestibulum interdum bibendum.",
+        description:"My favorite game from when I was a child! It was a major programming logic challenge for me, who was still on the early stages of web-development studies. You can play it on your desktop browser or any other device.",
         imgSrc: "https://user-images.githubusercontent.com/119897667/252804889-961f0744-aa73-4465-9c61-f62820eecf16.png",
         stack: ["HTML", "CSS", "Javascript"],
         type: "Browser Game",
@@ -41,7 +41,7 @@ const projects = [
     // }, MUST CHANGE RESPONSIVITY OF THE DARK THEME BTN
     // {
     //     title:"To Do List",
-    //     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lorem a augue pharetra lacinia. Fusce ut ex sit amet nisi sodales laoreet ac eget diam. Cras vestibulum interdum bibendum.",
+    //     description:"",
     //     imgSrc: "",
     //     stack: ["HTML", "CSS", "ReactJS"],
     //     type: "Web App",
@@ -49,7 +49,7 @@ const projects = [
     // }, ADD LOCAL STORAGE 
     // {
     //     title:"",
-    //     description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id lorem a augue pharetra lacinia. Fusce ut ex sit amet nisi sodales laoreet ac eget diam. Cras vestibulum interdum bibendum.",
+    //     description:"",
     //     imgSrc: "",
     //     stack: [],
     //     type: "",
