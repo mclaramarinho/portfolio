@@ -39,14 +39,14 @@ const projects = [
     //     type: "Web App",
     //     live:"https://get-countries-info.netlify.app/"
     // }, MUST CHANGE RESPONSIVITY OF THE DARK THEME BTN
-    // {
-    //     title:"To Do List",
-    //     description:"",
-    //     imgSrc: "",
-    //     stack: ["HTML", "CSS", "ReactJS"],
-    //     type: "Web App",
-    //     live:"https://todolist-react-challenge.netlify.app/"
-    // }, ADD LOCAL STORAGE 
+    {
+        title:"To Do List",
+        description:"A simple and effective To Do app, to track your To Do's. This app uses local storage to store your tasks, so you do not lose them when the tab is closed or refreshed.",
+        imgSrc: "https://user-images.githubusercontent.com/119897667/254635310-87bb9cc4-80d1-4ecd-88eb-1b46a8d0c881.png",
+        stack: ["HTML", "CSS", "ReactJS"],
+        type: "Web App",
+        live:"https://todolist-react-challenge.netlify.app/"
+    },
     // {
     //     title:"",
     //     description:"",
