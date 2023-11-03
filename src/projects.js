@@ -1,3 +1,6 @@
+import swbotimg from "./assets/image.png"
+import arcomixImg from './assets/arcomix.png'
+
 const projects = [
     {
         title:"Matching Game",
@@ -47,14 +50,22 @@ const projects = [
         type: "Web App",
         live:"https://todolist-react-challenge.netlify.app/"
     },
-    // {
-    //     title:"",
-    //     description:"",
-    //     imgSrc: "",
-    //     stack: [],
-    //     type: "",
-    //     live:""
-    // },
+    {
+        title:"Star Wars Bot",
+        description:"A discord bot which uses the SWAPI - Star Wars API and GPT-3.5 for a fun experience. There are many commands that get info about Star Wars, some to get funny images of you and Jar Jar Binks, and some commands to receive AI-generated answers.",
+        imgSrc: swbotimg,
+        stack: ["Python", "Flask", "OpenAI API", "Discord.py"],
+        type: "Discord Bot",
+        live:"https://replit.com/@mclaramarinho/sw-bot?v=1"
+    },
+    {
+        title:"Sistema de Agendamentos - Arcomix",
+        description:"Front-end project of a delivery schedulling system for the Brazilian supermarket chain, Arcomix. It's designed to support 2 types of user (employee and supplier). The users can schedule and manage appointments, and also create and print PDF reports. ",
+        imgSrc: arcomixImg,
+        stack: ["HTML", "CSS", "Bootstrap", "ReactJS"],
+        type: "Website",
+        live:"https://replit.com/@mclaramarinho/sw-bot?v=1"
+    },
 ]
 
 export default projects

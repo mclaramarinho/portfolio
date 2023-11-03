@@ -158,6 +158,10 @@ section{
 .py-5{
     width: fit-content !important;
 }
+.no-dec{
+    text-decoration: none !important;
+    color: white !important;
+}
 /* ------------------------------------------------------------------------------------------ */
 .MuiSnackbarContent-message{
     font-size: 1.5rem;
@@ -269,3 +273,4 @@ footer{
         margin: 0 auto 2vh !important;
     }
 }
+

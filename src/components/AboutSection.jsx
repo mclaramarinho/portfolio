@@ -38,8 +38,8 @@ return(
                             <SkillsGrid array={skills} cols={4} />
                         </div>
                         <div className="col-12 mt-5 resp-start" style={{width: "fit-content"}}>
-                            <h3 className="col-12">NEWBIE</h3>
-                            <SkillsGrid array={learning} cols={3} />
+                            <h3 className="col-12">NOVICE</h3>
+                            <SkillsGrid array={learning} cols={4} />
                         </div>
                         
                     </div>

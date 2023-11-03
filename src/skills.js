@@ -40,7 +40,22 @@ const skills = [
         skill: "ReactJS",
         imgSrc:"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
     }
-    // ,
+    ,
+    // {
+    //     id: 8,
+    //     skill: "Python",
+    //     imgSrc: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    // },
+    // {
+    //     id: 9,
+    //     skill: "",
+    //     imgSrc:""
+    // },
+    // {
+    //     id: 0,
+    //     skill: "",
+    //     imgSrc:""
+    // },
     // {
     //     id: 0,
     //     skill: "",
