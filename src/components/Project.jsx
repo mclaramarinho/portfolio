@@ -7,8 +7,8 @@ function Project(props){
                 <div className="row">
                     <div className="col-lg-6 col-xl-5 col-12 ms-auto">
                         <div className="row"></div>
-                        <a target="_blank" href={props.liveLink} className="row proj-img">
-                            <img width={200} height={100} src={props.img} alt="" />
+                        <a target="_blank" href={props.liveLink} className="row proj-img" style={{overflow: 'hidden'}}>
+                            <img src={props.img} alt="" />
                         </a>
                         <div className="row"></div>
                     </div>
