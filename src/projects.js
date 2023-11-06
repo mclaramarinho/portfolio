@@ -66,6 +66,14 @@ const projects = [
         type: "Website",
         live:"https://replit.com/@mclaramarinho/sw-bot?v=1"
     },
+    {
+        title:"Utils Bot",
+        description:"A bot with many useful commands, such as: QR code generator, URL shortener, OCR, translation, text sumup, and more.",
+        imgSrc: swbotimg,
+        stack: ["Python", "Flask", "OpenAI API", "Telegram Bot API"],
+        type: "Telegram Bot",
+        live:"https://replit.com/@mclaramarinho/tl-bot?v=1"
+    },
 ]
 
 export default projects
