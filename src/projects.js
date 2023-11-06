@@ -1,6 +1,6 @@
 import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
-import utilsBot from './assets/utils-bot.jfif'
+import utilsBot from './assets/utils-bot.png'
 import feelFine from './assets/feel-fine.PNG'
 const projects = [
     {
