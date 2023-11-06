@@ -1,6 +1,7 @@
 import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
 import utilsBot from './assets/utils-bot.jfif'
+import feelFine from './assets/feel-fine.png'
 const projects = [
     {
         title:"Matching Game",
@@ -18,14 +19,14 @@ const projects = [
         type: "Web App",
         live:"https://verr-med.netlify.app/"
     },
-    // {
-    //     title:"Feel Fine",
-    //     description:"",
-    //     imgSrc: "https://user-images.githubusercontent.com/119897667/248408555-9d02c148-91b8-4dec-99a7-af98c6f89a40.png",
-    //     stack: ["HTML", "CSS", "Bootstrap", "Javascript"],
-    //     type: "Landing Page",
-    //     live:"https://mclaramarinho.github.io/feel-fine-landing-page/"
-    // }, IMPROVE MOBILE RESPONSIVITY AND DESIGN
+    {
+        title:"Feel Fine",
+        description:"Landing page developed to showcase an app project. This project was presented and finalist at the 2023 Kickoff Demoday of the Porto Digital's Residency Program. It was also awarded 3rd place at the Arena Embarque event that happened inside the 2023 Rec'n'Play festival.",
+        imgSrc: feelFine,
+        stack: ["HTML", "CSS", "Bootstrap", "Javascript"],
+        type: "Landing Page",
+        live:"https://mclaramarinho.github.io/feel-fine-landing-page/"
+    }, 
     {
         title:"Snake Game",
         description:"My favorite game from when I was a child! It was a major programming logic challenge for me, who was still on the early stages of web-development studies. You can play it on your desktop browser or any other device.",
