@@ -1,7 +1,7 @@
 import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
 import utilsBot from './assets/utils-bot.jfif'
-import feelFine from './assets/feel-fine.png'
+import feelFine from '.\assets\feel-fine.PNG'
 const projects = [
     {
         title:"Matching Game",
