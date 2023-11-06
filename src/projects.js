@@ -10,7 +10,7 @@ const projects = [
         stack: ["HTML", "CSS", "Bootstrap", "ReactJS"],
         type: "Web App",
         live:"https://verr-med.netlify.app/"
-    },,
+    },
     {
         title:"Sistema de Agendamentos - Arcomix",
         description:"Front-end project of a delivery schedulling system for the Brazilian supermarket chain, Arcomix. It's designed to support 2 types of user (employee and supplier). The users can schedule and manage appointments, and also create and print PDF reports. ",
