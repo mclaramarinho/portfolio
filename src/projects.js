@@ -1,6 +1,6 @@
 import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
-
+import utilsBot from './assets/utils-bot.jfif'
 const projects = [
     {
         title:"Matching Game",
@@ -68,8 +68,8 @@ const projects = [
     },
     {
         title:"Utils Bot",
-        description:"A bot with many useful commands, such as: QR code generator, URL shortener, OCR, translation, text sumup, and more.",
-        imgSrc: "https://media.licdn.com/dms/image/D4D22AQHIG1l7xm__NA/feedshare-shrink_800/0/1699278987963?e=1701907200&v=beta&t=NXlWPb_3gv3fCnYCWvwFifl1aKuT0Z3k7YYNfTefkrE",
+        description:"A bot with many useful commands, such as: QR code generator, URL shortener, OCR, translation, text sumup, and more. Powered by GPT-3.5 Turbo and many other APIs to make your life easier. Check it out on Telegram! @aka-utils-bot",
+        imgSrc: utilsBot,
         stack: ["Python", "Flask", "OpenAI API", "Telegram Bot API"],
         type: "Telegram Bot",
         live:"https://replit.com/@mclaramarinho/tl-bot?v=1"
