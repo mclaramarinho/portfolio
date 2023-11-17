@@ -43,14 +43,6 @@ const projects = [
         type: "Landing Page",
         live:"https://mclaramarinho.github.io/feel-fine-landing-page/"
     }, 
-    // {
-    //     title:"Where in the world",
-    //     description:"",
-    //     imgSrc: "https://user-images.githubusercontent.com/119897667/258516542-a864a562-d66e-4d10-820b-2c0e1bc9f15c.png",
-    //     stack: ["HTML", "CSS", "ReactJS"],
-    //     type: "Web App",
-    //     live:"https://get-countries-info.netlify.app/"
-    // }, MUST CHANGE RESPONSIVITY OF THE DARK THEME BTN
     {
         title:"To Do List",
         description:"A simple and effective To Do app, to track your To Do's. This app uses your local storage to store your tasks, so you do not lose them when the tab is closed or refreshed.",
@@ -65,14 +57,6 @@ const projects = [
         stack: ["HTML", "CSS", "Bootstrap", "jQuery"],
         type: "Browser Game",
         live: "https://mclaramarinho.github.io/browser-matching-game/"
-    },
-    {
-        title:"Star Wars Bot",
-        description:"A discord bot which uses the SWAPI - Star Wars API and GPT-3.5 for a fun experience. There are many commands that get info about Star Wars, some to get funny images of you and Jar Jar Binks, and some commands to receive AI-generated answers.",
-        imgSrc: swbotimg,
-        stack: ["Python", "Flask", "OpenAI API", "Discord.py"],
-        type: "Discord Bot",
-        live:"https://replit.com/@mclaramarinho/sw-bot?v=1"
     }
 ]
 
