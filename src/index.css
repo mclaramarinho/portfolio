@@ -12,7 +12,9 @@
     font-family: 'Roboto';
 }
 /* ------------------------------------------------------------------------------------------ */
-
+.width-fit{
+    width: fit-content;
+}
 
 .bgImg{
     position: fixed;
