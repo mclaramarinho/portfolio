@@ -12,7 +12,15 @@ const projects = [
         live:"https://verr-med.netlify.app/"
     },
     {
-        title:"Sistema de Agendamentos - Arcomix",
+        title:"Zeitask - Task Management Tool",
+        description:"Still under development - Create an user and start managing your tasks with Zeitask. This task management tool is being developed to train my Firebase Auth and Firebase Realtime Database skills.",
+        imgSrc: arcomixImg,
+        stack: ["HTML", "CSS", "Bootstrap", "ReactJS", "Firebase"],
+        type: "Webapp",
+        live:"https://zeitask.netlify.app/"
+    },
+    {
+        title:"Schedulling System - Arcomix",
         description:"Front-end project of a delivery schedulling system for the Brazilian supermarket chain, Arcomix. It's designed to support 2 types of user (employee and supplier). The users can schedule and manage appointments, and also create and print PDF reports. ",
         imgSrc: arcomixImg,
         stack: ["HTML", "CSS", "Bootstrap", "ReactJS"],
