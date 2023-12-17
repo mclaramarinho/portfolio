@@ -2,6 +2,7 @@ import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
 import utilsBot from './assets/utils-bot.png'
 import feelFine from './assets/feel-fine.PNG'
+import zeitask from './assets/Screenshot2023-12-17 205554.jpg'
 const projects = [
     {
         title:"Verr Med",
@@ -14,7 +15,7 @@ const projects = [
     {
         title:"Zeitask - Task Management Tool",
         description:"Still under development - Create an user and start managing your tasks with Zeitask. This task management tool is being developed to train my Firebase Auth and Firebase Realtime Database skills.",
-        imgSrc: arcomixImg,
+        imgSrc: zeitask,
         stack: ["HTML", "CSS", "Bootstrap", "ReactJS", "Firebase"],
         type: "Webapp",
         live:"https://zeitask.netlify.app/"
