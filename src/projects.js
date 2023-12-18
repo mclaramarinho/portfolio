@@ -2,7 +2,7 @@ import swbotimg from "./assets/image.png"
 import arcomixImg from './assets/arcomix.png'
 import utilsBot from './assets/utils-bot.png'
 import feelFine from './assets/feel-fine.PNG'
-import zeitask from './assets/Screenshot2023-12-17205554.jpg'
+import zeitask from './assets/Screenshot 2023-12-17 205554.jpg'
 const projects = [
     {
         title:"Verr Med",
