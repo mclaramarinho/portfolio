@@ -16,7 +16,7 @@ function Navbar(){
                 <a class="nav-link r-nav-link" href="#contact">CONTACT ME</a>
                 <a class="nav-link mt-0 btn btn-start btn-highlight px-3 py-3"
                 target="_blank"
-                  href="https://drive.google.com/file/d/1dYVlF9r1HVTlKIzYUl0lRdcAIf19LRs-/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1P5JgkAy9hX6YnINqdRCP3Q0UUcUZd2um/view?usp=drivesdk"
                 ><i class="fa-solid fa-download"/> RESUME</a>
               </div>
             </div>
