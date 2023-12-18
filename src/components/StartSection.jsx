@@ -19,7 +19,7 @@
                             <p className="resp-start intro-parag">I'm a front-end developer and here you can know a little more about me.</p>
                             <div class="resp-start row btn-container">
                                 <div class="col-6">
-                                    <a target="_blank" class="btn btn-start px-3 py-3" href="https://drive.google.com/file/d/1dYVlF9r1HVTlKIzYUl0lRdcAIf19LRs-/view?usp=sharing"><i class="fa-solid fa-download"/> Resume</a>
+                                    <a target="_blank" class="btn btn-start px-3 py-3" href="https://drive.google.com/file/d/1P5JgkAy9hX6YnINqdRCP3Q0UUcUZd2um/view?usp=drivesdk"><i class="fa-solid fa-download"/> Resume</a>
                                 </div>
                                 <div class="col-6">
                                     <a class="btn btn-start btn-highlight py-3" href="#projects">Projects</a>
